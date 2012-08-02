@@ -1,0 +1,38 @@
+﻿@model IEnumerable<PersonWeb.Models.Person>
+@{
+    ViewBag.Title = "Personer";
+}
+
+<h2>Personer</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>Navn</th>
+            <th>Alder</th>
+            <th>Hårfarge</th>
+            <th>Høyde</th>
+            <th>Kjønn</th>
+            <th>Rediger</th>
+            <th>Slett</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var person in Model)
+        {
+            <tr>
+                <td>@person.Name</td>
+                <td>@person.Age</td>
+                <td>@person.HairColor</td>
+                <td>@person.Height</td>
+                <td>@person.Gender</td>
+                <td>@Html.ActionLink("Rediger", "Update", new {Id = person.Id})</td>
+                <td>@Html.ActionLink("Slett", "DeleteConfirm", new {Id = person.Id})</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div>
+    @Html.ActionLink("Opprett ny person", "Insert") 
+</div>
