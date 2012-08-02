@@ -10,7 +10,7 @@ namespace PersonPhoneApp
     {
         public void GetPersons(Action<List<Person>> callback)
         {
-            var client = new RestClient("http://10.0.0.49:14897/");
+            var client = new RestClient("TODO");
             var request = new RestRequest("Persons/List", Method.GET);
 
             Debug.WriteLine("Making request to: " + client.BuildUri(request).ToString());
