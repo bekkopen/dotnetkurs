@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Net;
 using RestSharp;
+using RestSharp.Deserializers;
 
 namespace PersonPhoneApp
 {
@@ -10,9 +11,12 @@ namespace PersonPhoneApp
     {
         public void GetPersons(Action<List<Person>> callback)
         {
-            var client = new RestClient("TODO");
-            var request = new RestRequest("Persons/List", Method.GET);
+            
+            var client = new RestClient("https://raw.github.com/bekkopen/dotnetkurs/master/PersonPhoneApp/");
+            client.AddHandler("text/plain", new JsonDeserializer());
 
+            var request = new RestRequest("Persons.json", Method.GET) {RequestFormat = DataFormat.Json};
+            
             Debug.WriteLine("Making request to: " + client.BuildUri(request).ToString());
 
             client.ExecuteAsync<List<Person>>(request, response => {
