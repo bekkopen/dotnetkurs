@@ -1,14 +1,14 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonWeb", "PersonWeb.csproj", "{D5E39337-A89D-4EEB-8FA2-57B2E5F15419}"
-EndProject
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{3FA5CFF1-8B56-4FA5-9179-450FFB88EFBD}"
 	ProjectSection(SolutionItems) = preProject
 		.nuget\NuGet.Config = .nuget\NuGet.Config
 		.nuget\nuget.exe = .nuget\nuget.exe
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonWeb", "PersonWeb.csproj", "{D5E39337-A89D-4EEB-8FA2-57B2E5F15419}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

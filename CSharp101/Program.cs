@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Linq;
+using System.Net.Http;
+using System.Threading.Tasks;
 
 namespace CSharp101
 {
@@ -7,6 +9,7 @@ namespace CSharp101
     {
         static void Main(string[] args)
         {
+            /*
             Oppgave1();
             Oppgave2til3();
             Oppgave4til5();
@@ -15,6 +18,10 @@ namespace CSharp101
             Oppgave8();
             Oppgave9();
             Oppgave10();
+             */
+            Oppgave11();
+
+            Console.ReadLine();
         }
 
         public static void Oppgave1()
@@ -129,6 +136,22 @@ namespace CSharp101
             foreach(var name in names)
                 Console.WriteLine(name);
             Console.WriteLine();
+        }
+
+        public static async void Oppgave11()
+        {
+            var url = "https://raw.github.com/bekkopen/dotnetkurs/master/PersonPhoneApp/Persons.json";
+
+            var client = new HttpClient();
+
+            Task<string> contentTask = client.GetStringAsync(url);
+
+            Console.WriteLine("Last ned fil fra {0}", url);
+
+            string personer = await contentTask;
+
+            Console.WriteLine("Personer fra fil:");
+            Console.WriteLine(personer);
         }
 
         private static Person[] LagPersoner()
