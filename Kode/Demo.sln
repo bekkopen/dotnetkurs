@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A - Demo instansiering av objekter", "Demo instansiering av objekter\A - Demo instansiering av objekter.csproj", "{69492408-F6AE-4B8F-904C-8D2E22F8C4C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B - Demo Delegates", "B - Demo Delegates og Events\B - Demo Delegates.csproj", "{CC4F6F52-6C57-4C9C-BF53-42EBDBBF436F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C - Demo LINQ", "C - Demo LINQ\C - Demo LINQ.csproj", "{4F2A3014-3330-4E63-A1C2-EE46EC80BB6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C - Demo Events", "C - Demo Events\C - Demo Events.csproj", "{ED013A6F-378B-44B2-ACEC-C1D284E9BED7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69492408-F6AE-4B8F-904C-8D2E22F8C4C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69492408-F6AE-4B8F-904C-8D2E22F8C4C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69492408-F6AE-4B8F-904C-8D2E22F8C4C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69492408-F6AE-4B8F-904C-8D2E22F8C4C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC4F6F52-6C57-4C9C-BF53-42EBDBBF436F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC4F6F52-6C57-4C9C-BF53-42EBDBBF436F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC4F6F52-6C57-4C9C-BF53-42EBDBBF436F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC4F6F52-6C57-4C9C-BF53-42EBDBBF436F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F2A3014-3330-4E63-A1C2-EE46EC80BB6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F2A3014-3330-4E63-A1C2-EE46EC80BB6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F2A3014-3330-4E63-A1C2-EE46EC80BB6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F2A3014-3330-4E63-A1C2-EE46EC80BB6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED013A6F-378B-44B2-ACEC-C1D284E9BED7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED013A6F-378B-44B2-ACEC-C1D284E9BED7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED013A6F-378B-44B2-ACEC-C1D284E9BED7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED013A6F-378B-44B2-ACEC-C1D284E9BED7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

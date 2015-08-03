@@ -1,0 +1,4 @@
+C:\BEKK\Kurs\vs\Demo\C - Demo Events\bin\Debug\C - Demo Events.pdb
+C:\BEKK\Kurs\vs\Demo\C - Demo Events\obj\Debug\C - Demo Events.pdb
+C:\BEKK\Kurs\vs\Demo\C - Demo Events\bin\Debug\C - Demo Events.exe
+C:\BEKK\Kurs\vs\Demo\C - Demo Events\obj\Debug\C - Demo Events.exe

@@ -1,0 +1,5 @@
+C:\BEKK\Kurs\vs\Demo\Demo\bin\Debug\Demo.pdb
+C:\BEKK\Kurs\vs\Demo\Demo\obj\Debug\Demo.csprojResolveAssemblyReference.cache
+C:\BEKK\Kurs\vs\Demo\Demo\obj\Debug\Demo.pdb
+C:\BEKK\Kurs\vs\Demo\Demo\bin\Debug\Demo.exe
+C:\BEKK\Kurs\vs\Demo\Demo\obj\Debug\Demo.exe
