@@ -1,6 +1,7 @@
 ﻿namespace B___Demo_Delegates_og_Events
 {
     public delegate Car HowWouldYouLikeUsToPimpIt(Car car);
+    public delegate Car GetCarDelegate();
 
     public class PimpMyRide
     {

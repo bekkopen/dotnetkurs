@@ -10,19 +10,20 @@ namespace C___Demo_LINQ
         {
             var persons = new List<Person>
             {
-                new Person {Name = "Steinar", Age = 39},
-                new Person {Name = "Tore", Age = 33},
+                new Person {Name = "Steinar", Age = 40},
+                new Person {Name = "Tore", Age = 34},
                 new Person {Name = "Bjarte", Age = 100}
             };
 
-            var personsUnderForty = from person in persons
-                                    where person.Age < 40
+            var personsUnderFortyFive = from person in persons
+                                    where person.Age < 45
                                     select person;
 
-            foreach (var person in personsUnderForty)
+            foreach (var person in personsUnderFortyFive)
             {
                 Console.WriteLine(person);
             }
+
         }
     }
 }

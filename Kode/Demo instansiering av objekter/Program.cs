@@ -5,15 +5,15 @@
         static void Main()
         {
             Driver driver = new Driver();
-            driver.Name = "Johan";
-            driver.Age = 28;
+            driver.Name = "Reodor Felgen";
+            driver.Age = 42;
             driver.Car = new Car();
-            driver.Car.Model = "Skoda Fabia";
+            driver.Car.Model = "Il Tempo Gigante";
 
             var driver2 = new Driver
             {
                 Name = "Lars",
-                Age = 27,
+                Age = 28,
                 Car = new Car
                 {
                     Model = "VW Polo"

@@ -5,3 +5,8 @@ C:\BEKK\Kurs\vs\Demo\C - Demo LINQ\obj\Debug\C - Demo LINQ.exe
 C:\BEKK\Kurs\vs\Demo\C - Demo LINQ\obj\Debug\C - Demo LINQ.pdb
 C:\Users\lars skjelbek\Dropbox\Jobb\Bekk\Presentasjoner\Kurs i .NET for nyansatte\drop fra pinne\Demo\C - Demo LINQ\obj\Debug\C - Demo LINQ.exe
 C:\Users\lars skjelbek\Dropbox\Jobb\Bekk\Presentasjoner\Kurs i .NET for nyansatte\drop fra pinne\Demo\C - Demo LINQ\obj\Debug\C - Demo LINQ.pdb
+C:\Bekk\DotNetKurs2015\dotnetkurs\Kode\C - Demo LINQ\obj\Debug\C - Demo LINQ.exe
+C:\Bekk\DotNetKurs2015\dotnetkurs\Kode\C - Demo LINQ\obj\Debug\C - Demo LINQ.pdb
+C:\Bekk\DotNetKurs2015\dotnetkurs\Kode\C - Demo LINQ\bin\Debug\C - Demo LINQ.exe
+C:\Bekk\DotNetKurs2015\dotnetkurs\Kode\C - Demo LINQ\bin\Debug\C - Demo LINQ.pdb
+C:\Bekk\DotNetKurs2015\dotnetkurs\Kode\C - Demo LINQ\obj\Debug\C - Demo LINQ.csprojResolveAssemblyReference.cache
