@@ -1,0 +1,54 @@
+﻿@model IEnumerable<Del2.Models.Person>
+
+<h2>Personer</h2>
+
+@Html.ActionLink("Hjem", "Index", "Home")
+
+<p>
+    @Html.ActionLink("Opprett ny", "Insert")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Age)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HairColor)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Height)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Gender)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var person in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => person.Age)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => person.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => person.HairColor)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => person.Height)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => person.Gender)
+        </td>
+        <td>
+            @Html.ActionLink("Rediger", "Update", new { id=person.Id }) |
+            @Html.ActionLink("Slett", "Delete", new { id = person.Id })
+        </td>
+    </tr>
+}
+
+</table>

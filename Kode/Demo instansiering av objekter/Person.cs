@@ -13,7 +13,7 @@ namespace Demo_instansiering_av_objekter
             set
             {
                 if (value >= 0) _age = value;
-                else throw new ArgumentException("Alder må være mer enn 0");
+                else throw new ArgumentOutOfRangeException();
             }
         }
     }
