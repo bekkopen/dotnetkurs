@@ -261,7 +261,7 @@ Lag et lambda-uttrykk som returnerer true hvis personen som gis inn er over 80 �
 <h2>
 <a id="oppgave-5--oppdatere-en-eksisterende-person" class="anchor" href="#oppgave-5--oppdatere-en-eksisterende-person" aria-hidden="true"><span class="octicon octicon-link"></span></a>Oppgave 5 – Oppdatere en eksisterende person</h2>
 
-<p>Kunden har behov for å kunne oppdatere registrerte personer. Lag en ny Update-Action med View. Lenke til denne fra tabellen med personer, f.eks. ved å legge inn en ny kolonne som heter «Rediger» på slutten av hver rad. Husk å sende inn ID til personen som skal redigeres.</p>
+<p>Kunden har behov for å kunne oppdatere registrerte personer. Lag en ny Update-Action med View. Lenke til denne fra tabellen med personer, f.eks. ved å legge inn en ny kolonne som heter «Rediger» på slutten av hver rad. Husk å sende inn Id til personen som skal redigeres.</p>
 
 <div class="highlight highlight-cshtml"><pre>&lt;td&gt;@Html.ActionLink(<span class="pl-s"><span class="pl-pds">"</span>Rediger<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>Update<span class="pl-pds">"</span></span>, <span class="pl-k">new</span> {Id = person.Id})&lt;/td&gt;</pre></div>
 
