@@ -3,3 +3,8 @@ C:\BEKK\Kurs\vs\Demo\B - Demo Delegates og Events\bin\Debug\B - Demo Delegates o
 C:\BEKK\Kurs\vs\Demo\B - Demo Delegates og Events\obj\Debug\B - Demo Delegates og Events.exe
 C:\BEKK\Kurs\vs\Demo\B - Demo Delegates og Events\obj\Debug\B - Demo Delegates og Events.pdb
 C:\BEKK\Kurs\vs\Demo\B - Demo Delegates og Events\obj\Debug\B - Demo Delegates.csprojResolveAssemblyReference.cache
+C:\Bekk\DotNetKurs2015\dotnetkurs\Kode\B - Demo Delegates og Events\obj\Debug\B - Demo Delegates og Events.exe
+C:\Bekk\DotNetKurs2015\dotnetkurs\Kode\B - Demo Delegates og Events\obj\Debug\B - Demo Delegates og Events.pdb
+C:\Bekk\DotNetKurs2015\dotnetkurs\Kode\B - Demo Delegates og Events\bin\Debug\B - Demo Delegates og Events.exe
+C:\Bekk\DotNetKurs2015\dotnetkurs\Kode\B - Demo Delegates og Events\bin\Debug\B - Demo Delegates og Events.pdb
+C:\Bekk\DotNetKurs2015\dotnetkurs\Kode\B - Demo Delegates og Events\obj\Debug\B - Demo Delegates.csprojResolveAssemblyReference.cache
