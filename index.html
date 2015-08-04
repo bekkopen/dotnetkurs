@@ -252,9 +252,33 @@ Lag et lambda-uttrykk som returnerer true hvis personen som gis inn er over 80 �
 
 <div class="highlight highlight-html"><pre>&lt;<span class="pl-ent">td</span>&gt;@Html.ActionLink("Rediger", "Update", new {Id = person.Id})&lt;/<span class="pl-ent">td</span>&gt;</pre></div>
 
-<p>Her må du og ha to Action som heter Update, en som tar inn en Id og henter personen som skal redigeres fra databasen og sender ham til Viewet, og en som tar inn den oppdaterte Personen i en HTTP POST, og lagrer endringene i databasen.</p>
+<p>Her må du også ha to Actions som begge heter Update (de <em>må</em> ikke hete det samme, men det er vanlig å gjøre det slik). Den ene tar inn en Id og henter personen som skal redigeres fra databasen og sender ham til Viewet. Den andre tar inn den oppdaterte Personen i en HTTP POST, og lagrer endringene i databasen.</p>
 
 <p>Send brukeren tilbake til oversikten når personen er oppdatert.</p>
+
+<h2>
+<a id="oppgave-6--slette-en-eksisterende-person" class="anchor" href="#oppgave-6--slette-en-eksisterende-person" aria-hidden="true"><span class="octicon octicon-link"></span></a>Oppgave 6 – Slette en eksisterende person</h2>
+
+<p>Om du har tilgjengelig tid, se om du får til å legge inn funksjonalitet for å slette en person.</p>
+
+<h2>
+<a id="oppgave-7--returnere-en-liste-av-personer-som-json" class="anchor" href="#oppgave-7--returnere-en-liste-av-personer-som-json" aria-hidden="true"><span class="octicon octicon-link"></span></a>Oppgave 7 – Returnere en liste av personer som JSON</h2>
+
+<p>For å kunne bruke systemet fra flest mulig enheter ønsker kunden ett enkelt web api. Lag en ny Action som returnerer en oversikt over alle kundene som JSON.</p>
+
+<h2>
+<a id="oppgave-8--lage-et-ordentlig-web-api" class="anchor" href="#oppgave-8--lage-et-ordentlig-web-api" aria-hidden="true"><span class="octicon octicon-link"></span></a>Oppgave 8 – Lage et ordentlig Web API</h2>
+
+<p>Det viser seg at api-et i forrige oppgave blir for enkelt. Kunden har behov for å kunne svare med JSON til klientene som ønsker dette, XML til de som ønsker det, og på toppen av det hele: URL-ene må være best practice for REST. På tide å bruke ASP.NET Web API.</p>
+
+<p>Hint: Web Api 2 Controller.</p>
+
+<h2>
+<a id="oppgave-9--legg-til-rulleblad" class="anchor" href="#oppgave-9--legg-til-rulleblad" aria-hidden="true"><span class="octicon octicon-link"></span></a>Oppgave 9 – Legg til rulleblad</h2>
+
+<p>De slemmeste av skurkene har et langt rulleblad. Kunden ønsker mulighet til å holde rede på disse. Legg til modellen Crime og koble denne opp mot Person-modellen. Crime skal minst ha en dato for når handlingen skjedde og en tekst som beskriver handlingen. Sørg for at URL-en <code>/api/persons/1/crimes</code> returnerer alle kriminelle handlinger for personen med id == 1 osv. Crime-modellen skal også persisteres i databasen på lik linje med Persons.</p>
+
+<p>Hint: Databasemigreringer, Route-attributter</p>
 
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/bekkopen/dotnetkurs">.NET introduksjonskurs</a> is maintained by <a href="https://github.com/bekkopen">bekkopen</a>.</span>
