@@ -24,6 +24,7 @@ namespace C___Demo_LINQ
                 Console.WriteLine(person);
             }
 
+            Console.Read();
         }
     }
 }
