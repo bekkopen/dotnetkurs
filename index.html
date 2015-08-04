@@ -253,7 +253,7 @@ Lag et lambda-uttrykk som returnerer true hvis personen som gis inn er over 80 �
 
 <p>Kunden har behov for å kunne oppdatere registrerte personer. Lag en ny Update-Action med View. Lenke til denne fra tabellen med personer, f.eks. ved å legge inn en ny kolonne som heter «Rediger» på slutten av hver rad. Husk å sende inn ID til personen som skal redigeres.</p>
 
-<div class="highlight highlight-html"><pre>&lt;<span class="pl-ent">td</span>&gt;@Html.ActionLink("Rediger", "Update", new {Id = person.Id})&lt;/<span class="pl-ent">td</span>&gt;</pre></div>
+<div class="highlight highlight-cshtml"><pre>&lt;td&gt;@Html.ActionLink(<span class="pl-s"><span class="pl-pds">"</span>Rediger<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>Update<span class="pl-pds">"</span></span>, <span class="pl-k">new</span> {Id = person.Id})&lt;/td&gt;</pre></div>
 
 <p>Her må du også ha to Actions som begge heter Update (de <em>må</em> ikke hete det samme, men det er vanlig å gjøre det slik). Den ene tar inn en Id og henter personen som skal redigeres fra databasen og sender ham til Viewet. Den andre tar inn den oppdaterte Personen i en HTTP POST, og lagrer endringene i databasen.</p>
 
