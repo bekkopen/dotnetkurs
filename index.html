@@ -241,6 +241,21 @@ Lag et lambda-uttrykk som returnerer true hvis personen som gis inn er over 80 �
     <span class="pl-k">public</span> DbSet&lt;Person&gt; <span class="pl-en">Persons</span> { <span class="pl-k">get</span>; <span class="pl-k">set</span>; }
 }</pre></div>
 
+<p>Nå er du klar til å begynne å bruke databasen. Oppdater Index-Actionen på Persons-Controlleren til å lese alle personene fra databasen ved hjelp av LINQ.</p>
+
+<p>Legg så til en ny Action, Insert og lenke til denne fra Index-Viewet. Bruk innebygget scaffolding til å lage et nytt Insert-View. Legg til en Insert-Action som tar en Person-Model, og som er satt til HTTP POST. Lagre denne i databasen ved hjelp av LINQ, og send brukeren tilbake til oversikten.</p>
+
+<h2>
+<a id="oppgave-5--oppdatere-en-eksisterende-person" class="anchor" href="#oppgave-5--oppdatere-en-eksisterende-person" aria-hidden="true"><span class="octicon octicon-link"></span></a>Oppgave 5 – Oppdatere en eksisterende person</h2>
+
+<p>Kunden har behov for å kunne oppdatere registrerte personer. Lag en ny Update-Action med View. Lenke til denne fra tabellen med personer, f.eks. ved å legge inn en ny kolonne som heter «Rediger» på slutten av hver rad. Husk å sende inn ID til personen som skal redigeres.</p>
+
+<div class="highlight highlight-html"><pre>&lt;<span class="pl-ent">td</span>&gt;@Html.ActionLink("Rediger", "Update", new {Id = person.Id})&lt;/<span class="pl-ent">td</span>&gt;</pre></div>
+
+<p>Her må du og ha to Action som heter Update, en som tar inn en Id og henter personen som skal redigeres fra databasen og sender ham til Viewet, og en som tar inn den oppdaterte Personen i en HTTP POST, og lagrer endringene i databasen.</p>
+
+<p>Send brukeren tilbake til oversikten når personen er oppdatert.</p>
+
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/bekkopen/dotnetkurs">.NET introduksjonskurs</a> is maintained by <a href="https://github.com/bekkopen">bekkopen</a>.</span>
 
