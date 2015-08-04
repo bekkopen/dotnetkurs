@@ -211,7 +211,7 @@ Lag et lambda-uttrykk som returnerer true hvis personen som gis inn er over 80 �
 <ol>
 <li>Opprett en ny ASP.NET Web Application</li>
 <li>Velg Empty template</li>
-<li>Huk av for MVC under under «Add folders and core references for»</li>
+<li>Huk av for MVC under «Add folders and core references for»</li>
 <li>Fjern haken for «Host in the cloud»</li>
 </ol>
 
@@ -222,16 +222,20 @@ Lag et lambda-uttrykk som returnerer true hvis personen som gis inn er over 80 �
 
 <p>Kopier Person-klassen fra tidligere oppgaver til Models-mappa i ASP.NET MVC-prosjektet. Gjør Index-Viewet til Persons-Controlleren sterkt typet til en liste av Personer. Gjenbruk koden fra Del 1, Oppgave 5 og send inn disse personene til Viewet. Skriv ut listen av personer i en tabell.</p>
 
-<p>For enkelhetsskyld dropper vi å registrere om en person er ond/god, så du kan fjerne Enum + Property for dette.</p>
+<p>For enkelhets skyld dropper vi å registrere om en person er ond/god, så du kan fjerne Enum + Property for dette.</p>
 
 <h2>
 <a id="oppgave-3--registrere-nye-personer" class="anchor" href="#oppgave-3--registrere-nye-personer" aria-hidden="true"><span class="octicon octicon-link"></span></a>Oppgave 3 – Registrere nye personer</h2>
 
-<p>Vi har behov for å kunne registrere nye personer i systemet. Lag et nytt Insert View, og en ny Insert Action på Person Controlleren. Viewet burde være sterkt typet til Person-typen. Du må også lage en Insert-action som tar inn en Person, og dekorere den med HttpPost-attributet, for å kunne sende en person til serveren.</p>
+<p>Vi har behov for å kunne registrere nye personer i systemet. Lag et nytt Insert View, og en ny Insert Action på Person-Controlleren. Viewet bør være sterkt typet til Person-typen. Du må også lage en Insert-action som tar inn en Person, og dekorere den med HttpPost-attributet, for å kunne sende en person til serveren.</p>
 
-<p>Legg til valideringsregler som sørger for at en person må være mellom 0 og 150 år, 0 og 250cm, at navn og kjønn er påkrevd, og at kjønn kun kan være verdiene M eller K (hint: ^[MK]{1}$).</p>
+<p>Legg til valideringsregler som sørger for at en person må være mellom 0 og 150 år, 0 og 250cm, at navn og kjønn er påkrevd, og at kjønn kun kan være verdiene M eller K.</p>
 
 <p>Sett et break-point i Insert-actionen for å sjekke at du får inn et gyldig Person-objekt. Send brukeren tilbake til listen over personer dersom objektet er gyldig.</p>
+
+<blockquote>
+<p><em>Hint: ^[MK]{1}$</em></p>
+</blockquote>
 
 <h2>
 <a id="oppgave-4--registrere-personer-i-database" class="anchor" href="#oppgave-4--registrere-personer-i-database" aria-hidden="true"><span class="octicon octicon-link"></span></a>Oppgave 4 – Registrere personer i database</h2>
