@@ -46,7 +46,6 @@ Eksempellogg:</p>
 <pre><code>Starter loggen…
 
 Kanye: “I feel like I'm too busy writing history to read it.”
-
 Kanye: “I don't even listen to rap. My apartment is too nice to listen to rap in.”
 </code></pre>
 
@@ -237,11 +236,10 @@ Lag et lambda-uttrykk som returnerer true hvis personen som gis inn er over 80 �
 
 <p>Du må også lage en DbContext-klasse i Model-mappen.</p>
 
-<pre><code>public class PersonContext : DbContext
+<div class="highlight highlight-c#"><pre><span class="pl-k">public</span> <span class="pl-k">class</span> <span class="pl-en">PersonContext</span> : <span class="pl-k">DbContext</span>
 {
-    public DbSet&lt;Person&gt; Persons { get; set; }
-}
-</code></pre>
+    <span class="pl-k">public</span> DbSet&lt;Person&gt; <span class="pl-en">Persons</span> { <span class="pl-k">get</span>; <span class="pl-k">set</span>; }
+}</pre></div>
 
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/bekkopen/dotnetkurs">.NET introduksjonskurs</a> is maintained by <a href="https://github.com/bekkopen">bekkopen</a>.</span>
