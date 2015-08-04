@@ -31,14 +31,16 @@ Lag en "Hello World"-applikasjon.</p>
 <h2>
 <a id="oppgave-2--personer" class="anchor" href="#oppgave-2--personer" aria-hidden="true"><span class="octicon octicon-link"></span></a>Oppgave 2 – Personer</h2>
 
-<p>Vår applikasjon vil omhandle personer. Disse personene har egenskaper som navn, alder, hårfarge, høyde og kjønn. Disse egenskapene skal registreres. En persons alder kan ikke være mindre enn 0. 
-Lag en klasse med properties som reflekterer dette. Du kan gjerne overskrive ToString-metoden. Den vil bli brukt i en senere oppgave.</p>
+<p>Vår applikasjon vil omhandle personer. Disse personene har egenskaper som navn, alder, hårfarge, høyde og kjønn. Disse egenskapene skal registreres. En persons alder kan ikke være mindre enn 0.</p>
+
+<p>Lag en klasse med properties som reflekterer dette. Du kan gjerne overskrive ToString-metoden. Den vil bli brukt i en senere oppgave.</p>
 
 <h2>
 <a id="oppgave-3--log" class="anchor" href="#oppgave-3--log" aria-hidden="true"><span class="octicon octicon-link"></span></a>Oppgave 3 – Log</h2>
 
-<p>Kunden vår ønsker å ha mulighet til å logge hendelser.
-Lag en metode på person-klassen som logger utsagn til konsollet (Console.WriteLine()). Metoden skal logge ett eller flere utsagn om gangen. Hvert utsagn skal prefikses med personens navn.  (Bonuspoeng til de som klarer å legge til et default utsagn: ”Blah blah blah..” )
+<p>Kunden vår ønsker å ha mulighet til å logge hendelser.</p>
+
+<p>Lag en metode på person-klassen som logger utsagn til konsollet (Console.WriteLine()). Metoden skal logge ett eller flere utsagn om gangen. Hvert utsagn skal prefikses med personens navn.  (Bonuspoeng til de som klarer å legge til et default utsagn: ”Blah blah blah..” )
 Eksempellogg:</p>
 
 <pre><code>Starter loggen…
@@ -51,8 +53,9 @@ Kanye: “I don't even listen to rap. My apartment is too nice to listen to rap 
 <h2>
 <a id="oppgave-4--enums" class="anchor" href="#oppgave-4--enums" aria-hidden="true"><span class="octicon octicon-link"></span></a>Oppgave 4 – Enums</h2>
 
-<p>Kunden vår holder oppsikt med et stort antall personer. Det er ikke alltid alle oppfører seg like fint, og kunden vil ha mulighet til å registrere hvorvidt en person oppfører seg bra eller dårlig. Kunden har dessverre ikke full oversikt, så systemet må også ha mulighet for å registrere at oppførselen er ukjent. Begynn derfor denne oppgaven med å lage en enum som gjenspeiler dette.
-Opprett en property på personobjektet som kan lagre en persons oppførsel.</p>
+<p>Kunden vår holder oppsikt med et stort antall personer. Det er ikke alltid alle oppfører seg like fint, og kunden vil ha mulighet til å registrere hvorvidt en person oppfører seg bra eller dårlig. Kunden har dessverre ikke full oversikt, så systemet må også ha mulighet for å registrere at oppførselen er ukjent. Begynn derfor denne oppgaven med å lage en enum som gjenspeiler dette.</p>
+
+<p>Opprett en property på personobjektet som kan lagre en persons oppførsel.</p>
 
 <h2>
 <a id="oppgave-5--liste-av-personer" class="anchor" href="#oppgave-5--liste-av-personer" aria-hidden="true"><span class="octicon octicon-link"></span></a>Oppgave 5 – Liste av personer</h2>
@@ -137,14 +140,16 @@ Iterer igjennom personene i registeret og kall ToString-metoden på hvert person
 <a id="oppgave-6--filtrering" class="anchor" href="#oppgave-6--filtrering" aria-hidden="true"><span class="octicon octicon-link"></span></a>Oppgave 6 – Filtrering</h2>
 
 <p>Nå som dere har bygget litt kompetanse ønsker kunden å få se noen reelle resultater.
-Personer som har svart hår eller er over 100 år gamle er klart mistenkelige. Kunden vil gjerne ha en utskrift over disse personene så snart som mulig.
-Bruk LINQ til å hente ut en liste over disse personene.</p>
+Personer som har svart hår eller er over 100 år gamle er klart mistenkelige. Kunden vil gjerne ha en utskrift over disse personene så snart som mulig.</p>
+
+<p>Bruk LINQ til å hente ut en liste over disse personene.</p>
 
 <h2>
 <a id="oppgave-7--group-by" class="anchor" href="#oppgave-7--group-by" aria-hidden="true"><span class="octicon octicon-link"></span></a>Oppgave 7 – Group by</h2>
 
-<p>Kunden har nok en god dag og er strålende fornøyd. Nå som han har fått gjennomslag for såpass mye ny funksjonalitet så ønsker han å fortsette å utvikle systemet. 
-Kunden ønsker seg en oversikt over personene som er registrert i systemet fordelt etter tilbøyelighet.
+<p>Kunden har nok en god dag og er strålende fornøyd. Nå som han har fått gjennomslag for såpass mye ny funksjonalitet så ønsker han å fortsette å utvikle systemet. </p>
+
+<p>Kunden ønsker seg en oversikt over personene som er registrert i systemet fordelt etter tilbøyelighet.
 Ta utgangspunkt i lista fra forrige oppgave og grupper på tilbøyelighet. Skriv ut grupperingene.
 Eksempel:</p>
 
@@ -161,15 +166,17 @@ Dontknow:
 <h2>
 <a id="oppgave-8--extension-methods" class="anchor" href="#oppgave-8--extension-methods" aria-hidden="true"><span class="octicon octicon-link"></span></a>Oppgave 8 – Extension methods</h2>
 
-<p>Det viser seg at systemet inneholder en del feilregistrerte telefonnummere. I ekstreme tilfeller går systemet ned med en uhåndtert NullReferenceException.
-Lag en extension-metode for string-klassen som kan validere telefonnummere. Gi metoden navnet IsValidPhoneNumber. Det holder å sjekke at nummeret er satt, og at det er minst 8 tegn langt.</p>
+<p>Det viser seg at systemet inneholder en del feilregistrerte telefonnummere. I ekstreme tilfeller går systemet ned med en uhåndtert NullReferenceException.</p>
+
+<p>Lag en extension-metode for string-klassen som kan validere telefonnummere. Gi metoden navnet IsValidPhoneNumber. Det holder å sjekke at nummeret er satt, og at det er minst 8 tegn langt.</p>
 
 <h2>
 <a id="oppgave-9--lambda-uttrykk" class="anchor" href="#oppgave-9--lambda-uttrykk" aria-hidden="true"><span class="octicon octicon-link"></span></a>Oppgave 9 – Lambda-uttrykk</h2>
 
 <p>Array-klassen har en generisk, statisk metode som heter Find. Metoden tar inn en array og ett predikat. 
-Lag et lambda-uttrykk som returnerer true hvis personen som gis inn er over 80 år.
-Benytt Find-metoden sammen med lambdauttrykket for å finne en person i lista som er over 80.
+Lag et lambda-uttrykk som returnerer true hvis personen som gis inn er over 80 år.</p>
+
+<p>Benytt Find-metoden sammen med lambdauttrykket for å finne en person i lista som er over 80.
 <em>Hint: Et predikat er en delegat som tar inn ett objekt og returnerer en boolsk verdi.</em></p>
 
 <h2>
@@ -187,6 +194,54 @@ Benytt Find-metoden sammen med lambdauttrykket for å finne en person i lista so
 
 <h1>
 <a id="del-2--aspnet-mvc" class="anchor" href="#del-2--aspnet-mvc" aria-hidden="true"><span class="octicon octicon-link"></span></a>Del 2 – ASP.NET MVC</h1>
+
+<h2>
+<a id="oppgave-1--to-sider-som-lenker-til-hverandre" class="anchor" href="#oppgave-1--to-sider-som-lenker-til-hverandre" aria-hidden="true"><span class="octicon octicon-link"></span></a>Oppgave 1 – To sider som lenker til hverandre</h2>
+
+<p>Kunden er fornøyd med registeret og ønsker at flere skal kunne bruke det via web.</p>
+
+<ol>
+<li>Opprett en ny ASP.NET Web Application</li>
+<li>Velg Empty template</li>
+<li>Huk av for MVC under under «Add folders and core references for»</li>
+<li>Fjern haken for «Host in the cloud»</li>
+</ol>
+
+<p>Legg til to Controllere; Home og Persons. Legg til en Index-action på hver av Controllerne, som returnerer et View. Opprett en link som går fra Home-viewet til Persons-viewet og vice versa.</p>
+
+<h2>
+<a id="oppgave-2--utlisting-av-personer" class="anchor" href="#oppgave-2--utlisting-av-personer" aria-hidden="true"><span class="octicon octicon-link"></span></a>Oppgave 2 – Utlisting av personer</h2>
+
+<p>Kopier Person-klassen fra tidligere oppgaver til Models-mappa i ASP.NET MVC-prosjektet. Gjør Index-Viewet til Persons-Controlleren sterkt typet til en liste av Personer. Gjenbruk koden fra Del 1, Oppgave 5 og send inn disse personene til Viewet. Skriv ut listen av personer i en tabell.</p>
+
+<p>For enkelhetsskyld dropper vi å registrere om en person er ond/god, så du kan fjerne Enum + Property for dette.</p>
+
+<h2>
+<a id="oppgave-3--registrere-nye-personer" class="anchor" href="#oppgave-3--registrere-nye-personer" aria-hidden="true"><span class="octicon octicon-link"></span></a>Oppgave 3 – Registrere nye personer</h2>
+
+<p>Vi har behov for å kunne registrere nye personer i systemet. Lag et nytt Insert View, og en ny Insert Action på Person Controlleren. Viewet burde være sterkt typet til Person-typen. Du må også lage en Insert-action som tar inn en Person, og dekorere den med HttpPost-attributet, for å kunne sende en person til serveren.</p>
+
+<p>Legg til valideringsregler som sørger for at en person må være mellom 0 og 150 år, 0 og 250cm, at navn og kjønn er påkrevd, og at kjønn kun kan være verdiene M eller K (hint: ^[MK]{1}$).</p>
+
+<p>Sett et break-point i Insert-actionen for å sjekke at du får inn et gyldig Person-objekt. Send brukeren tilbake til listen over personer dersom objektet er gyldig.</p>
+
+<h2>
+<a id="oppgave-4--registrere-personer-i-database" class="anchor" href="#oppgave-4--registrere-personer-i-database" aria-hidden="true"><span class="octicon octicon-link"></span></a>Oppgave 4 – Registrere personer i database</h2>
+
+<p>For at systemet skal bli virkelig nyttig må vi kunne registrere nye personer i en database. Legg inn SqlCompact og Entity Framework ved hjelp av NuGet:</p>
+
+<pre><code>Install-Package EntityFramework.SqlServerCompact
+</code></pre>
+
+<p>EntityFramework.SqlServerCompact er avhengig av Microsoft.SqlServer.Compact og vil automatisk hente og installere denne avhengigheten.</p>
+
+<p>Du må også lage en DbContext-klasse i Model-mappen.</p>
+
+<pre><code>public class PersonContext : DbContext
+{
+    public DbSet&lt;Person&gt; Persons { get; set; }
+}
+</code></pre>
 
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/bekkopen/dotnetkurs">.NET introduksjonskurs</a> is maintained by <a href="https://github.com/bekkopen">bekkopen</a>.</span>
