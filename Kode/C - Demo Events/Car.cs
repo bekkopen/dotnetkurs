@@ -23,6 +23,7 @@ namespace C___Demo_Events
         }
 
         public event Action WashingFluidNeedsRefill;
+
         protected virtual void OnWashingFluidNeedsRefill()
         {
             Action handler = WashingFluidNeedsRefill;

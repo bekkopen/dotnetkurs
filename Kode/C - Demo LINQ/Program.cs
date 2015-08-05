@@ -15,11 +15,11 @@ namespace C___Demo_LINQ
                 new Person {Name = "Bjarte", Age = 100}
             };
 
-            var personsUnderFortyFive = from person in persons
-                                    where person.Age < 45
-                                    select person;
+            var personsOverFortyFive = from person in persons
+                                        where person.Age > 45
+                                        select person;
 
-            foreach (var person in personsUnderFortyFive)
+            foreach (var person in personsOverFortyFive)
             {
                 Console.WriteLine(person);
             }

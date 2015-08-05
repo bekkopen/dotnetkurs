@@ -5,3 +5,6 @@ C:\BEKK\Kurs\vs\Demo\Demo instansiering av objekter\obj\Debug\Demo instansiering
 C:\BEKK\Kurs\vs\Demo\Demo instansiering av objekter\obj\Debug\A - Demo instansiering av objekter.csprojResolveAssemblyReference.cache
 C:\Bekk\DotNetKurs2015\dotnetkurs\Kode\Demo instansiering av objekter\obj\Debug\Demo instansiering av objekter.exe
 C:\Bekk\DotNetKurs2015\dotnetkurs\Kode\Demo instansiering av objekter\obj\Debug\Demo instansiering av objekter.pdb
+C:\Bekk\DotNetKurs2015\dotnetkurs\Kode\Demo instansiering av objekter\bin\Debug\Demo instansiering av objekter.exe
+C:\Bekk\DotNetKurs2015\dotnetkurs\Kode\Demo instansiering av objekter\bin\Debug\Demo instansiering av objekter.pdb
+C:\Bekk\DotNetKurs2015\dotnetkurs\Kode\Demo instansiering av objekter\obj\Debug\A - Demo instansiering av objekter.csprojResolveAssemblyReference.cache

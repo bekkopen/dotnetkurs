@@ -20,7 +20,9 @@ namespace B___Demo_Delegates_og_Events
             var pimpShow = new PimpMyRide();
 
             Console.WriteLine("Before: " + driver.Car);
+
             var pimpedCar = pimpShow.PimpIt(driver.Car, Wish);
+
             Console.WriteLine("Now: " + pimpedCar);
             Console.Read();
         }
